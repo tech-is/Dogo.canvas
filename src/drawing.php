@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery</title>
     <link rel="stylesheet" 
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -38,18 +38,9 @@
             <div class="border rounded" id="wrap">
                 <canvas id="canvas"></canvas>
             </div>
-            <div class="form-group">
-                <input type="button" class="btn btn-dark" onClick="clearCan();" value="クリア" data-inline="true" />
-            </div>
-            <div>
-                <!-- <div class="form-group">
-                    <label for="">作品名</label>
-                    <input type="text" id="img_name" class="form-control">
-                </div> -->
-                <div class="form-group">
-                    <!-- <button class="btn btn-dark" id="download">download</button> -->
-                    <button class="btn btn-dark" onClick="upload_canvas()">Upload</button>
-                </div>
+            <div class="my-4 d-flex justify-content-between">
+                <button type="button" class="btn btn-dark" onClick="clearCan();" data-inline="true">クリア</button>
+                <button class="btn btn-dark" onClick="upload_canvas()">Upload</button>
             </div>
         </div>
     </section>

@@ -1,1 +1,2 @@
-src/upload/img/*
+src/upload/img/*.png
+!src/upload/img/
